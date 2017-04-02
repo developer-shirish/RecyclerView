@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements onClickListner{
         setSupportActionBar(toolbar);
 
 
+
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         moviesArrayList = new ArrayList<Movies>();
         movieAdapter = new MovieAdapter(moviesArrayList);
